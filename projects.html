@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="profile2.css">
+    <title>projects</title>
+</head>
+<body>
+    <div class="topnav" id = "navbar">
+        <a href="homepage.html" >Home</a>
+        <a href="profile2.html">Profile</a>
+        <a href="projects.html"class="active">Projects</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("navbar");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+<div class="projectlinks">
+  <div class="projecttext">
+    <a href="https://www.w3schools.com/" target="_blank" class="bankappbtn">Bank app</a>
+    <a href="https://www.w3schools.com/" target="_blank" class="bankappbtn">Store app</a>
+  </div>
+</div>
+    
+    <footer class="social-footer">
+      <div class="social-footer-left">
+    
+      </div>
+      <div class="social-footer-icons">
+        <ul class="menu simple">
+          <li><a href="include your links here"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="mailto:okereomos@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+
+    
+</body>
+</html>
